@@ -1,19 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 // a self-replicating section of a Snake;
 public class Segment : MonoBehaviour
 {
-    static Vector3 Right = new Vector3(1f, 0f, 0f);
-
+    // Snake grows when food is consumed
     public void Grow()
     {
         // copy itself
         GameObject go = GameObject.Instantiate(gameObject);
-        go.transform.position = transform.position + Right;
+        go.transform.position = transform.position + Vector3.right;
 
-        // our link in a snake "chain"
+        // hook up new segment to a snake "chain"
         Segment link = go.GetComponent<Segment>();
+        // ..
     }
 }
