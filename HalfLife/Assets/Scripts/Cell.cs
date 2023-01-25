@@ -13,6 +13,6 @@ public class Cell : MonoBehaviour {
         sr = GetComponent<SpriteRenderer>();
     }
    
-    // flipe live or dead image on mouse click
+    // flip live or dead image on mouse click
  
 }

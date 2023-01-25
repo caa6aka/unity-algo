@@ -23,59 +23,23 @@ public class Section : MonoBehaviour {
 
     public void Move()
     {
-        if (dead)
-            return;     // game over
-
-        if (prev != null)
-            transform.position = prev.transform.position;
-        else // head            
-            transform.position += dir;
+        // move in the current direction
     }
 
     public void Grow()
     {
-        GameObject head = GameObject.Instantiate(gameObject);
-        head.transform.position = transform.position + dir;
-        Section headS = head.GetComponent<Section>();
-        prev = headS;
+        // grow a new head, and attach it to a body
     }
 
 	void OnTriggerEnter2D(Collider2D coll) {
 
-        if (prev != null)       // not my concern
-            return;
-
-        // only head collisions have consequences
-		if (coll.tag == "Food" )
-		{
-			Destroy(coll.gameObject);       // eat him
-            Grow();
-		}
-
-        if (coll.tag == "Border")
-            dead = true;
-
-        //print("collided with " + coll.gameObject);
-        //if (coll.tag.StartsWith("Snake"))    // bit itself
-            //dead = true;
+        // if got an apple, eat it and Grow
+        // if bit a border or itself, die..
 	}
 
     void Update()
     {
-        if (prev != null)
-            return;     // not my concern
-
-        if (Input.GetKey(KeyCode.UpArrow) && dir != Down)   // don't reverse on itself
-            dir = Up;
-
-        if (Input.GetKey(KeyCode.DownArrow) && dir != Up)
-            dir = Down;
-
-        if (Input.GetKey(KeyCode.RightArrow) && dir != Left)
-            dir = Right;
-
-        if (Input.GetKey(KeyCode.LeftArrow) && dir != Right)
-            dir = Left;
+        // check key input, and adjust direction of movement
     }    
 
 }

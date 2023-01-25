@@ -19,7 +19,7 @@ public class Apple : MonoBehaviour {
     
     void Start () {
 
-        minX = (int) borderLeft.position.x +1;      // avoid placing ferrets inside borders
+        minX = (int) borderLeft.position.x +1;      // avoid placing apples on the borders
         maxX = (int) borderRight.position.x -1;
 
         minY = (int) borderBottom.position.y +1;
@@ -32,11 +32,7 @@ public class Apple : MonoBehaviour {
     // Pop up a ferret
     void PopUp() {
         
-        int x = Random.Range(minX, maxX);       // x position between left & right border
-        int y = Random.Range(minY, maxY);
-
-        // Instantiate the food at (x, y)
-        Instantiate(img, new Vector2(x, y), Quaternion.identity); // default rotation
+        // place an apple at a random location inside the board
     }
 
 }
