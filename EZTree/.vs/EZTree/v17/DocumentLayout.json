@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\repo\\unity-algo\\EZTree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2AFD8F7-8C24-BDF8-0B03-34C8B25C420E}|Assembly-CSharp.csproj|D:\\repo\\unity-algo\\EZTree\\assets\\scripts\\bulb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2AFD8F7-8C24-BDF8-0B03-34C8B25C420E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repo\\unity-algo\\EZTree\\Assets\\Scripts\\Socket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Socket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\repo\\unity-algo\\eztree\\assets\\scripts\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bulb.cs",
+              "DocumentMoniker": "D:\\repo\\unity-algo\\EZTree\\Assets\\Scripts\\Bulb.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bulb.cs",
+              "ToolTip": "D:\\repo\\unity-algo\\EZTree\\Assets\\Scripts\\Bulb.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bulb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:38:23.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Socket.cs",
+              "DocumentMoniker": "D:\\repo\\unity-algo\\EZTree\\Assets\\Scripts\\Socket.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Socket.cs",
+              "ToolTip": "D:\\repo\\unity-algo\\EZTree\\Assets\\Scripts\\Socket.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Socket.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:35:57.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tree.cs",
+              "DocumentMoniker": "D:\\repo\\unity-algo\\EZTree\\Assets\\Scripts\\Tree.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tree.cs",
+              "ToolTip": "D:\\repo\\unity-algo\\EZTree\\Assets\\Scripts\\Tree.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tree.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T19:34:23.148Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

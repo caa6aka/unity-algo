@@ -1,45 +1,40 @@
 ﻿using UnityEngine;
 
-// a glowing decoration light
+// our Node
 public class Bulb : MonoBehaviour
 {
-    public int value;
-    public Color hiliteColor = Color.red;
-
+    int value;
+    bool installed = false;
     SpriteRenderer sr;
     Color originalColor;
-
-    bool installed = false;
+    Color hiliteColor = Color.red;
 
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();   
+        sr = GetComponent<SpriteRenderer>();
         originalColor = sr.color;
         value = int.Parse(name);
     }
 
-    // traversal hilites bulbs, one at a time. seqnum gives us pause beween light-ups
+    public void Add(Bulb s)
+    {
+       // place in the structure..
+
+        // for the UI, move it below, to the left or right:
+       // s.transform.position = new Vector2(item.transform.position.x +- 1f, item.transform.position.y - 1f);
+
+    }
+
     public void Flash()
     {
-        Hilite();
-        Invoke("Reset", 1f);
-    }
 
-    public void Hilite()
-    {
-        sr.color = hiliteColor;
-    }
-
-    void Reset()
-    {
-        sr.color = originalColor;
     }
 
     void OnMouseDown()   // place on tree - no removal, for simplicity
     {
-        if (! installed)
+        if (!installed)
         {
-            Tree.Add(this);   
+            Add(this);
             installed = true;
         }
     }
